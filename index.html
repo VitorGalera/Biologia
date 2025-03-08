@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reinos da Biologia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Reinos</h1>
+    </header>
+    <main>
+        <section class="intro">
+            <div class="texto">
+                <p>A classificação dos seres vivos em reinos foi criada para organizar melhor a biodiversidade...</p>
+                <img src="img/biologia.jpg" alt="Imagem representativa dos reinos biológicos">
+            </div>
+            <div class="extra">
+                <img src="img/microscopio.jpg" alt="Imagem de microscópio">
+                <p>Os cientistas utilizam essa classificação para entender melhor os organismos vivos.</p>
+            </div>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="Pages/aprofundamento.html">Aprofundamento</a></li>
+                <li><a href="Pages/exercicios.html">Exercícios</a></li>
+                <li><a href="Pages/como_ajudar.html">Como Ajudar</a></li>
+            </ul>
+        </nav>
+    </main>
+</body>
+</html>
+
+style.css
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+}
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.texto {
+    display: flex;
+    align-items: center;
+}
+.texto img {
+    margin-left: 20px;
+    width: 300px;
+}
+.extra {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.extra img {
+    width: 150px;
+    margin-right: 20px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #4CAF50;
+}
